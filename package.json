@@ -1,0 +1,32 @@
+{
+  "name": "glsl_test",
+  "version": "0.0.0",
+  "description": "Testing out GLSL.js",
+  "main": "index.js",
+  "dependencies": {
+    "brfs": "^1.2.0",
+    "mouse-position": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RangerMauve/glsl_test.git"
+  },
+  "keywords": [
+    "glsl"
+  ],
+  "author": "RangerMauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/glsl_test/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/glsl_test",
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  }
+}
